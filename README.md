@@ -1,3 +1,7 @@
+The The FIM(File integrity model) will be using file hashing to perform integrity checks.Use the code written below in powershell and continue.For the given code we made a folder on the desktop and in that we saved this powershell script and creted another folder in the same folder where we saved powershell script named files and in that we saved all the text files and ran our script to check it 
+
+
+
 # File-integrity-Model
 Function Calculate-File-Hash($filepath) {
     $filehash = Get-FileHash -Path $filepath -Algorithm SHA512
